@@ -1,2 +1,2 @@
-# Baking_application
+# Banking_application
 A secure and user-friendly banking application designed to manage financial accounts and transactions online.
