@@ -10,10 +10,6 @@ const port = 3001;
 app.use(bodyParser.json());
 app.use(cors());
 
-// Uncomment these account strings for running the file
-// const mongoURI = "mongodb://localhost:27017/twiliootp";
-// const accountSid = "AC0e8111da3dd1afd745dea2d4ec115670";
-// const authToken = "100a69aa5277968571e0b39473e457e9";
 const client = new twilio(accountSid, authToken);
 
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
